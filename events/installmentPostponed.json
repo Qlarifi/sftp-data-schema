@@ -1,0 +1,13 @@
+{
+  "type": "installmentPostponed",
+  "effectiveTimestamp": "2025-03-04T00:00:00",
+  "installmentId": "installment3",
+  "orderId": "order1",
+  "transactionId": "transaction1",
+  "consumerId": "consumer1",
+  "newDueTimestamp": "2025-04-11T00:00:00+00:00",
+  "postponedType": "ConsumerRequest",
+  "metadata": {
+    "DatasetId": "a8c5c056-6966-4c04-b450-56cf875727ba"
+  }
+}

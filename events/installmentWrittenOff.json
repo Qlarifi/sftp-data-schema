@@ -1,0 +1,9 @@
+{
+  "type": "installmentWrittenOff",
+  "effectiveTimestamp": "2024-10-20T14:00:00Z",
+  "installmentId": "inst-12345",
+  "transactionId": "txn-67890",
+  "accountId": "acc-zyxwv9876",
+  "consumerId": "cons-abcdef",
+  "reason": "ConsumerDefault"
+}

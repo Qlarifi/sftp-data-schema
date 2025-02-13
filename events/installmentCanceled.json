@@ -1,0 +1,8 @@
+{
+  "type": "installmentCanceled",
+  "effectiveTimestamp": "2024-08-22T09:00:00Z",
+  "installmentId": "inst-12346",
+  "transactionId": "txn-67891",
+  "accountId": "acc-zyxwv9876",
+  "consumerId": "cons-abcdefg"
+}

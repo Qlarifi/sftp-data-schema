@@ -1,0 +1,17 @@
+{
+  "type": "installmentIssued",
+  "effectiveTimestamp": "2025-02-03T00:00:00",
+  "installmentId": "installment1",
+  "orderId": "order1",
+  "transactionId": "transaction1",
+  "consumerId": "consumer1",
+  "amount": {
+    "number": 50.00,
+    "currency": "USD"
+  },
+  "dueTimestamp": "2025-02-03T00:00:00",
+  "index": 0,
+  "metadata": {
+    "DatasetId": "b651f073-abd0-4ad2-bb12-45c538284065"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "feePaid",
+  "effectiveTimestamp": "2025-03-11T00:00:00",
+  "installmentId": "installment2",
+  "orderId": "order1",
+  "transactionId": "transaction1",
+  "consumerId": "consumer1",
+  "amount": {
+    "number": 3,
+    "currency": "USD"
+  },
+  "metadata": {
+    "DatasetId": "b61afc4f-4b88-45fa-b2b9-d35b86bc723f"
+  }
+}

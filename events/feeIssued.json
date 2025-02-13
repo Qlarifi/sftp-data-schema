@@ -1,0 +1,13 @@
+{
+  "type": "feeIssued",
+  "effectiveTimestamp": "2025-03-04T00:00:00",
+  "installmentId": "installment2",
+  "orderId": "order1",
+  "transactionId": "transaction1",
+  "consumerId": "consumer1",
+  "penaltyAmount": {
+    "number": 2.00,
+    "currency": "USD"
+  },
+  "feeType": "PostponedFee"
+}
