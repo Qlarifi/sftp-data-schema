@@ -4,10 +4,10 @@
     "effectiveTimestamp": "2025-02-03T00:00:00",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 150.00,
-    "currency": "USD"
-  },
+    "amount": {
+      "number": 200.00,
+      "currency": "USD"
+    },
     "transactionType": "PayIn4",
     "metadata": {
       "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
@@ -20,10 +20,10 @@
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 50.00,
-    "currency": "USD"
-  },
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
     "dueTimestamp": "2025-02-03T00:00:00",
     "index": 0,
     "metadata": {
@@ -37,11 +37,11 @@
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 50.00,
-    "currency": "USD"
-  },
-    "dueTimestamp": "2025-03-05T00:00:00",
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
+    "dueTimestamp": "2025-02-17T00:00:00",
     "index": 1,
     "metadata": {
       "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
@@ -54,12 +54,29 @@
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 50.00,
-    "currency": "USD"
-  },
-    "dueTimestamp": "2025-04-04T00:00:00",
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
+    "dueTimestamp": "2025-03-03T00:00:00",
     "index": 2,
+    "metadata": {
+      "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
+    }
+  },
+  {
+    "type": "installmentIssued",
+    "effectiveTimestamp": "2025-02-03T00:00:00",
+    "installmentId": "installment4",
+    "orderId": "order1",
+    "transactionId": "transaction1",
+    "consumerId": "consumer1",
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
+    "dueTimestamp": "2025-03-17T00:00:00",
+    "index": 3,
     "metadata": {
       "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
     }
@@ -71,37 +88,67 @@
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 50.00,
-    "currency": "USD"
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
+    "metadata": {
+      "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
+    }
   },
+  {
+    "type": "installmentPaid",
+    "effectiveTimestamp": "2025-02-17T00:00:00",
+    "installmentId": "installment2",
+    "orderId": "order1",
+    "transactionId": "transaction1",
+    "consumerId": "consumer1",
+    "amount": {
+      "number": 50.00,
+      "currency": "USD"
+    },
     "metadata": {
       "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
     }
   },
   {
     "type": "refundIssued",
-    "effectiveTimestamp": "2025-02-05T00:00:00",
+    "effectiveTimestamp": "2025-02-265T00:00:00",
     "refundId": "refund1",
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-  "amount": {
-    "number": 110.00,
-    "currency": "USD"
-  },
+    "amount": {
+      "number": 110.00,
+      "currency": "USD"
+    },
     "metadata": {
       "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
     }
   },
   {
     "type": "installmentRebalanced",
-    "effectiveTimestamp": "2025-02-05T00:00:00",
+    "effectiveTimestamp": "2025-02-26T00:00:00",
+    "installmentId": "installment4",
+    "orderId": "order1",
+    "transactionId": "transaction1",
+    "consumerId": "consumer1",
+    "newAmountDue": {
+      "number": 0.00,
+      "currency": "USD"
+    },
+    "reason": "refunded",
+    "metadata": {
+      "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
+    }
+  },
+  {
+    "type": "installmentRebalanced",
+    "effectiveTimestamp": "2025-02-26T00:00:00",
     "installmentId": "installment3",
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-    "newDueTimestamp": "2025-03-05T00:00:00+00:00",
     "newAmountDue": {
       "number": 0.00,
       "currency": "USD"
@@ -113,29 +160,11 @@
   },
   {
     "type": "installmentRebalanced",
-    "effectiveTimestamp": "2025-02-05T00:00:00",
+    "effectiveTimestamp": "2025-02-26T00:00:00",
     "installmentId": "installment2",
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-    "newDueTimestamp": "2025-03-05T00:00:00+00:00",
-    "newAmountDue": {
-      "number": 0.00,
-      "currency": "USD"
-    },
-    "reason": "refunded",
-    "metadata": {
-      "DatasetId": "4565466c-4c74-42b3-b4d5-1606d1d89fce"
-    }
-  },
-  {
-    "type": "installmentRebalanced",
-    "effectiveTimestamp": "2025-02-05T00:00:00",
-    "installmentId": "installment1",
-    "orderId": "order1",
-    "transactionId": "transaction1",
-    "consumerId": "consumer1",
-    "newDueTimestamp": "2025-03-05T00:00:00+00:00",
     "newAmountDue": {
       "number": 40.00,
       "currency": "USD"
