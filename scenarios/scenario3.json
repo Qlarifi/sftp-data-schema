@@ -103,7 +103,6 @@
     "orderId": "order1",
     "transactionId": "transaction1",
     "consumerId": "consumer1",
-    "newDueTimestamp": "2025-03-05T00:00:00+00:00",
     "feeAmount": {
       "number": 3.00,
       "currency": "USD"

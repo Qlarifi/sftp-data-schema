@@ -73,9 +73,7 @@
 
 **consumerId**: The unique identifier of the consumer the instalment belongs to.
 
-**feeAmount.number**: The amount of the fee.
-
-**feeAmount.currency**: The currency of the fee.
+**newDueTimestamp**: The new date and time (UTC) when this instalment is due.
 
 **postponedType**: The type of postponed action. Possible values are `ConsumerRequest`, `LenderCommercial`, `LenderTechnical`.
 
