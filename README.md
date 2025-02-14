@@ -322,8 +322,8 @@ Refund is evenly split across the 3 installments.
 | 2025-02-05 00:00:00 | installmentRebalanced | order-1  | installment-2  | 22.50 USD  | \-               | \-                  | \-    | Refunded           |
 | 2025-02-05 00:00:00 | installmentRebalanced | order-1  | installment-3  | 22.50 USD  | \-               | \-                  | \-    | Refunded           |
 | 2025-02-05 00:00:00 | installmentRebalanced | order-1  | installment-4  | 22.50 USD  | \-               | \-                  | \-    | Refunded           |
-| 2025-03-05 00:00:00 | installmentPaid       | order-1  | installment-3  | 22.50 USD  | \-               | \-                  | \-    | \-                 |
-| 2025-04-04 00:00:00 | installmentPaid       | order-1  | installment-4  | 22.50 USD  | \-               | \-                  | \-    | \-                 |
+| 2025-03-03 00:00:00 | installmentPaid       | order-1  | installment-3  | 22.50 USD  | \-               | \-                  | \-    | \-                 |
+| 2025-03-17 00:00:00 | installmentPaid       | order-1  | installment-4  | 22.50 USD  | \-               | \-                  | \-    | \-                 |
 
 ### Scenario 9
 Transaction of $200 with 4 installments, with 3rd & 4th installment late, then written off (sent to collections).
